@@ -62,6 +62,8 @@
       #include "allegro/platform/alucfg.h"
    #elif defined ALLEGRO_PSP
       #include "allegro/platform/alpspcfg.h"
+   #elif defined ALLEGRO_VITA
+      #include "allegro/platform/alvitacfg.h"
    #else
       #error platform not supported
    #endif
